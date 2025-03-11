@@ -123,6 +123,10 @@ IC_URL="http://127.0.0.1:8080" # For those running dfx on port 8080
 
 You can get the path of your ``.pem`` file by running the command ``find . -name "testbot_identity.pem"`` and add it to your ``PEM_FILE`` variable
 
+``PEM_FILE`` relative path on wsl ``/home/user/open-chat-hackathon/open-chat-bots/rs/offchain/examples/dice/testbot_identity.pem``
+
+If in you terminal its ``username@ken:~/open-chat/...``, use the ``username`` part in placeof ``user``.
+
 You can now run the ``dice`` bot in the ``open chat bots`` directory: 
 
 ```bash 
